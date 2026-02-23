@@ -1,5 +1,6 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, NavLink } from "react-router";
 import "./app.css";
+import AudioNarration from "./routes/components/AudioNarration";
 
 // 1. The Navbar Component
 function Navbar() {
@@ -113,6 +114,7 @@ export default function App() {
         </div>
 
         <Navbar />
+        <AudioNarration />
 
         <main className="relative z-10 pt-20 min-h-screen">
           <Outlet />
