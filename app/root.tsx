@@ -1,6 +1,7 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, NavLink } from "react-router";
 import "./app.css";
 import AudioNarration from "./routes/components/AudioNarration";
+import { Analytics } from '@vercel/analytics/next';
 
 // 1. The Navbar Component
 function Navbar() {
@@ -117,9 +118,10 @@ export default function App() {
         <AudioNarration />
 
         <main className="relative z-10 pt-20 min-h-screen">
+
           <Outlet />
           <Footer />
-
+          <Analytics />
         </main>
 
 
