@@ -1,7 +1,7 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, NavLink } from "react-router";
 import "./app.css";
 import AudioNarration from "./routes/components/AudioNarration";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 // 1. The Navbar Component
 function Navbar() {
