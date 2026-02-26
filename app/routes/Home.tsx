@@ -105,7 +105,7 @@ export default function Home() {
                     <div className="rounded-[4rem] overflow-hidden border border-white/10 shadow-[0_0_100px_rgba(245,158,11,0.1)] bg-black aspect-video">
                         <iframe
                             className="w-full h-full grayscale-[0.3] hover:grayscale-0 transition-all duration-1000"
-                            src="https://www.youtube.com/embed/8tTkHJWxfP0?rel=0"
+                            src="https://www.youtube.com/embed/Su-4JBEIhXY?si=_G13LOwwsetnxCRy"
                             title="Douglass Video"
                             allowFullScreen
                         ></iframe>
@@ -120,7 +120,7 @@ export default function Home() {
                 </h2>
             </section>
 
-           
+
         </div>
     );
 }

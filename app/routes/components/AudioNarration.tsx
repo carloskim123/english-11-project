@@ -9,16 +9,8 @@ export default function AudioNarration() {
         if (!audio) return;
 
         if (!enabled) {
-            audio.volume = 0;
             audio.play();
 
-            // Fade in
-            let vol = 0;
-            const fade = setInterval(() => {
-                vol += 0.01;
-                audio.volume = Math.min(vol, 0.15);
-                if (vol >= 0.15) clearInterval(fade);
-            }, 150);
         } else {
             audio.pause();
         }

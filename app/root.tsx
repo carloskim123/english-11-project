@@ -2,7 +2,7 @@ import { Links, Meta, Outlet, Scripts, ScrollRestoration, NavLink } from "react-
 import "./app.css";
 import AudioNarration from "./routes/components/AudioNarration";
 import { Analytics } from "@vercel/analytics/react"
-
+import IntroBanner from "./routes/components/IntroBanner";
 
 // 1. The Navbar Component
 function Navbar() {
@@ -117,6 +117,7 @@ export default function App() {
 
         <Navbar />
         <AudioNarration />
+        <IntroBanner />
 
         <main className="relative z-10 pt-20 min-h-screen">
 
