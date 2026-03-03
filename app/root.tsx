@@ -115,7 +115,7 @@ export default function App() {
         </div>
 
         <Navbar />
-        <AudioNarration />
+        {/* <AudioNarration /> */}
 
         <main className="relative z-10 pt-20 min-h-screen">
 
