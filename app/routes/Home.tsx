@@ -66,7 +66,7 @@ export default function Home() {
                     <div className="md:col-span-8 bg-zinc-900/40 border border-white/5 p-16 rounded-[3.5rem] flex flex-col justify-center min-h-[450px]">
                         <h2 className="text-[#F59E0B] text-[10px] font-black tracking-[0.4em] uppercase mb-12 opacity-80">The Core Argument</h2>
                         <p className="text-4xl md:text-7xl font-bold leading-[1.05] text-white tracking-tight">
-                            Frederick Douglass <span className="text-[#F59E0B]">weaponized truth</span> to reshape the American soul.
+                            Frederick Douglass should be considered a visionary because he <span className="text-[#F59E0B]">weaponized truth</span> to reshape the American soul.
                         </p>
                     </div>
 
