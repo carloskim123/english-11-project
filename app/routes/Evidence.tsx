@@ -28,7 +28,7 @@ export default function Evidence() {
             expanded: "Delivered at Corinthian Hall, Douglass argued the Constitution was actually a 'glorious liberty document.'",
             stats: "CORINTHIAN HALL",
             citation: "Douglass, Frederick. 'Oration, Delivered in Corinthian Hall, Rochester, July 5th, 1852'.",
-            link: "https://hdl.loc.gov/loc.rbc/rbpe.12101200"
+            link: "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july-2/"
         },
         {
             id: 4, year: "1855", label: "ENTRY_04", title: "My Bondage",
@@ -36,7 +36,7 @@ export default function Evidence() {
             expanded: "Douglass used this edition to advocate for political action and, if necessary, armed resistance.",
             stats: "STRUCTURAL SHIFT",
             citation: "Douglass, Frederick. My bondage and my freedom. New York: Miller, Orton & Mulligan, 1855.",
-            link: "https://www.loc.gov/item/02020044/"
+            link: "https://docsouth.unc.edu/neh/douglass55/douglass55.html"
         },
         {
             id: 5, year: "1863", label: "ENTRY_05", title: "Men of Color",
@@ -44,23 +44,23 @@ export default function Evidence() {
             expanded: "He argued that once a Black man had 'the brass letters U.S. on his button,' no power could deny his citizenship.",
             stats: "54TH INFANTRY",
             citation: "Douglass, Frederick. 'Men of Color, To Arms!', March 2, 1863.",
-            link: "https://catalog.archives.gov/id/716292"
+            link: "https://housedivided.dickinson.edu/sites/teagle/texts/frederick-douglass-men-of-color-to-arms-1863"
         },
-        {
-            id: 6, year: "1877", label: "ENTRY_06", title: "U.S. Marshal",
-            surface: "Douglass broke the federal glass ceiling when appointed as the U.S. Marshal for the District of Columbia.",
-            expanded: "This was the first high-level presidential appointment for a Black man requiring Senate confirmation.",
-            stats: "FEDERAL APPOINTMENT",
-            citation: "U.S. National Archives, Record Group 60 (1877).",
-            link: "https://catalog.archives.gov/id/1118312"
-        },
+        // {
+        //     id: 6, year: "1877", label: "ENTRY_06", title: "U.S. Marshal",
+        //     surface: "Douglass broke the federal glass ceiling when appointed as the U.S. Marshal for the District of Columbia.",
+        //     expanded: "This was the first high-level presidential appointment for a Black man requiring Senate confirmation.",
+        //     stats: "FEDERAL APPOINTMENT",
+        //     citation: "U.S. National Archives, Record Group 60 (1877).",
+        //     link: "https://catalog.archives.gov/id/1118312"
+        // },
         {
             id: 7, year: "1881", label: "ENTRY_07", title: "Life and Times",
             surface: "His final autobiography documented his time as a diplomat and the failure of Reconstruction.",
             expanded: "Douglass warned that slavery had simply changed form through sharecropping and convict leasing.",
             stats: "FINAL TESTIMONY",
             citation: "Douglass, Frederick. Life and times of Frederick Douglass. Hartford, Conn.: Park Publishing Co., 1881.",
-            link: "https://www.loc.gov/item/02020045/"
+            link: "https://docsouth.unc.edu/neh/douglasslife/douglass.html"
         },
         {
             id: 8, year: "1895", label: "ENTRY_08", title: "The Final Act",
@@ -68,7 +68,7 @@ export default function Evidence() {
             expanded: "He died at his home, Cedar Hill, leaving a legacy of universal suffrage and resistance.",
             stats: "CEDAR HILL, DC",
             citation: "National Park Service, Frederick Douglass National Historic Site.",
-            link: "https://www.nps.gov/people/frederick-douglass.htm"
+            link: "https://www.nps.gov/articles/000/fraught-friendship-susan-b-anthony-and-frederick-douglass.htm#:~:text=Gordon,been%20in%20the%20same%20room."
         }
     ];
 
@@ -208,4 +208,5 @@ function Card({ item, onSelect }: { item: any, onSelect: (id: number) => void })
             </p>
         </motion.div>
     );
+
 }
