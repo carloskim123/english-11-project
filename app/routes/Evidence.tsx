@@ -86,7 +86,7 @@ export default function Evidence() {
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                         className="text-[12vw] font-black uppercase italic tracking-tighter leading-[0.75]"
                     >
-                        Archives
+                        Timeline
                     </motion.h1>
                     <p className="text-amber-500 font-mono text-[10px] tracking-[0.6em] uppercase mt-8">Phase 01: The Evidence Archive</p>
                 </header>
